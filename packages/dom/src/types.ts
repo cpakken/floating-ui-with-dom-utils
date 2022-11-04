@@ -205,5 +205,7 @@ export type {
 export {computePosition} from './';
 export {autoUpdate, Options as AutoUpdateOptions} from './autoUpdate';
 
-export {getOverflowAncestors} from './utils/getOverflowAncestors';
+// export {getOverflowAncestors} from './utils/getOverflowAncestors';
+export * from './utils';
+
 export {platform} from './platform';

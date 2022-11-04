@@ -32,6 +32,7 @@ export {
 
 export {autoUpdate} from './autoUpdate';
 
-export {getOverflowAncestors} from './utils/getOverflowAncestors';
+// export {getOverflowAncestors} from './utils/getOverflowAncestors';
+export * from './utils';
 
 export {platform} from './platform';
