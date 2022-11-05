@@ -1,6 +1,6 @@
 {
-  "name": "@floating-ui/dom",
-  "version": "0.4.2",
+  "name": "floating-ui-dom-with-utils",
+  "version": "1.0.4",
   "@rollingversions": {
     "baseVersion": [
       0,
