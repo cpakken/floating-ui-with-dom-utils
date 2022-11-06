@@ -1,3 +1,5 @@
+import getWindowScrollBarX from './getWindowScrollBarX';
+
 export * from './contains';
 export * from './convertOffsetParentRelativeRectToViewportRelativeRect';
 export * from './getBoundingClientRect';
@@ -14,7 +16,8 @@ export * from './getOverflowAncestors';
 export * from './getParentNode';
 export * from './getRectRelativeToOffsetParent';
 export * from './getViewportRect';
-export * from './getWindowScrollBarX';
+// export * as getWindowScrollBarX from './getWindowScrollBarX';
+export {getWindowScrollBarX};
 export * from './is';
 export * from './math';
 export * from './userAgent';
